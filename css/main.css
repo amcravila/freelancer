@@ -7,66 +7,72 @@ html, body {
   padding: 0;
 }
 
-.navbar {
+nav {
   background-color: #2c3e50;
-  height: 115px;
+  height: 116px;
   font-family: 'Montserrat', sans-serif;
-  padding: 0;
-  margin: 0;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
   width: 100%;
   position: fixed;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 865px;
+  outline: 1px solid red;
 }
 
 .start {
   text-decoration: none;
   color: white;
-  font-size: 30px;
-  font-weight: 900;
-  margin-left: 60px;
-}
-
-.list {
-  margin-top: 0;
+  font-size: 34.5px;
+  font-weight: 700;
+  margin-left: 64px;
+  padding: 10px 10px;
   padding-left: 0;
-  text-align: right;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  letter-spacing: .0625rem;
+  padding-right: 0;
+  letter-spacing: 0.45px;
 }
 
-.menuPortfolio, .menuAbout, .menuContact{
+.menuPortfolio, .menuAbout, .menuContact {
   text-decoration: none;
   color: white;
   font-weight: 700;
-  padding: 20px;
+  font-size: 18px;
+  padding: 22px;
+  letter-spacing: 0.85px;
+  outline: 1px solid red;
 }
 
-.main {
+.menuPortfolio:hover, .menuAbout:hover, .menuContact:hover {
+  color: #18bc9c;
+}
+
+header {
   background-color: #18bc9c;
-  height: 800px;
+  height: 992px;
   color: white;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-.main .p1 {
-  font-size: 80px;
-  font-weight: bold;
+header img {
+  margin-top: 222px;
+  width: 281.5px;
 }
 
-.main .p2 {
+header .p1 {
+  font-size: 83.5px;
+  font-weight: 700;
+  margin-top: 33px;
+}
+
+header .p2 {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
-}
-
-.main img {
-  margin-top: 100px;
 }
 
 .portfolio {
@@ -75,7 +81,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .portfolio a {
@@ -126,7 +132,7 @@ html, body {
   color: #2c3e50;
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 700;
   text-align: center;
 }
 
@@ -136,8 +142,8 @@ footer {
   height: 335px;
   font-size: 22px;
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
   display: flex;
+  text-align: center;
   justify-content: space-around;
   padding-top: 50px;
 }
@@ -155,7 +161,7 @@ footer a {
 .copyright {
   font-size: 14px;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: white;
   background-color: #1a252f;
   text-align: center;
