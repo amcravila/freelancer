@@ -13,7 +13,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -215,34 +216,36 @@ form {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  width: 828px;
-  padding-top: 40px;
-  margin-left: 265px;
-  line-height: 32px;
+  padding-top: 41px;
+  line-height: 31px;
   word-spacing: 4px;
 }
 
 .contactTags {
-  height: 89px;
+  height: 88px;
 }
 
 .contactLastTag {
   height: 170px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #D5D5D5;
 }
 
 .contactTags input {
   border: none;
-  width: 700px;
-  border-bottom: 1px solid grey;
+  width: 694px;
+  border-bottom: 1px solid #D5D5D5;
 }
 
 .contactLastTag input {
   border: none;
-  width: 700px;
+  width: 694px;
 }
 
 .button {
+    width: 694px;
+}
+
+.button input {
   background-color: #18bc9c;
   color: white;
   border-radius: 5px;
@@ -255,15 +258,14 @@ form {
   height: 46px;
   font-size: 19px;
   margin-top: 24px;
-  margin-left: -629px;
 }
 
 footer {
   text-align: center;
   background-color: #2c3e50;
   color: white;
-  height: 254px;
-  padding-top: 19px;
+  height: 253px;
+  padding-top: 17px;
 }
 
 .footerItens {
@@ -279,7 +281,7 @@ footer {
 }
 
 .around i {
-  letter-spacing: -7px;
+  letter-spacing: -5px;
 }
 
 .around h3 {
@@ -296,6 +298,7 @@ footer p {
   font-weight: 400;
   font-size: 19px;
   width: 340px;
+  line-height: 27px;
 }
 
 .flaticon-facebook::before, .flaticon-social-media::before, .flaticon-twitter::before, .flaticon-linkedin::before, .flaticon-dribble-big-logo::before {
